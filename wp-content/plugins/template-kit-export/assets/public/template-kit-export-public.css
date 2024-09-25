@@ -1,5 +1,5 @@
-/* ../scss/public/template-kit-export-public.scss */
-.template-kit-preview {
+/* ../scss/public/home-export-public.scss */
+.home-preview {
   background: #e9e9e9;
   color: rgba(0, 0, 0, 0.75);
   font: 1em/1.67 Arial, Sans-serif;
@@ -7,29 +7,29 @@
   padding: 0.5em;
 }
 @media (min-width: 800px) {
-  .template-kit-preview {
+  .home-preview {
     padding: 1em 2em;
   }
 }
-.template-kit-preview__title {
+.home-preview__title {
   font-size: 2em;
 }
-.template-kit-preview__grid {
+.home-preview__grid {
   transition: all 0.5s ease-in-out;
   column-gap: 30px;
   column-fill: initial;
 }
 @media (min-width: 400px) {
-  .template-kit-preview__grid {
+  .home-preview__grid {
     column-count: 2;
   }
 }
 @media (min-width: 800px) {
-  .template-kit-preview__grid {
+  .home-preview__grid {
     column-count: 4;
   }
 }
-.template-kit-preview__template {
+.home-preview__template {
   display: inline-block;
   vertical-align: top;
   background: #fff;
@@ -41,14 +41,14 @@
   border-radius: 3px;
   min-height: 100px;
 }
-.template-kit-preview__screenshot {
+.home-preview__screenshot {
   padding: 0;
   margin: 0;
   line-height: 0;
 }
-.template-kit-preview__name {
+.home-preview__name {
   text-decoration: none;
   text-align: center;
   padding: 10px;
 }
-/*# sourceMappingURL=template-kit-export-public.css.map */
+/*# sourceMappingURL=home-export-public.css.map */
