@@ -814,6 +814,7 @@
     <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
     <div
+     style="padding: 0px;"
       data-elementor-type="header"
       data-elementor-id="5"
       class="elementor elementor-5 elementor-location-header"
@@ -979,8 +980,7 @@
                 <div class="elementor-widget-container">
                   <a href="../../index.htm">
                     <img
-                      width="107"
-                      height="23"
+                      style="object-fit: cover; width: 130px; height: 70px"
                       src="../../wp-content/uploads/sites/16/2021/01/logo.png"
                       class="attachment-full size-full wp-image-48"
                       alt=""
@@ -1562,86 +1562,84 @@
                       >
                         <div class="elementor-widget-container">
                           <form
-      id="contact-form"
-      class="elementor-form"
-      method="post"
-      name="contact"
-      onsubmit="sendEmail(event)"
-    >
-      <input type="hidden" name="post_id" value="293" />
-      <input type="hidden" name="form_id" value="cbc5f55" />
-      <input type="hidden" name="referer_title" value="Contact" />
-      <input type="hidden" name="queried_id" value="293" />
-
-      <div class="elementor-form-fields-wrapper elementor-labels-above">
-        <div
-          class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50"
-        >
-          <label for="form-field-name" class="elementor-field-label">Name</label>
-          <input
-            size="1"
-            type="text"
-            name="form_fields[name]"
-            id="form-field-name"
-            class="elementor-field elementor-size-sm elementor-field-textual"
-            required
-          />
-        </div>
-        <div
-          class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required"
-        >
-          <label for="form-field-email" class="elementor-field-label">Email</label>
-          <input
-            size="1"
-            type="email"
-            name="form_fields[email]"
-            id="form-field-email"
-            class="elementor-field elementor-size-sm elementor-field-textual"
-            required="required"
-            aria-required="true"
-          />
-        </div>
-        <div
-          class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_bfc318e elementor-col-100"
-        >
-          <label for="form-field-field_bfc318e" class="elementor-field-label">Subject</label>
-          <input
-            size="1"
-            type="text"
-            name="form_fields[subject]"
-            id="form-field-field_bfc318e"
-            class="elementor-field elementor-size-sm elementor-field-textual"
-            required
-          />
-        </div>
-        <div
-          class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100"
-        >
-          <label for="form-field-message" class="elementor-field-label">Message</label>
-          <textarea
-            class="elementor-field-textual elementor-field elementor-size-sm"
-            name="form_fields[message]"
-            id="form-field-message"
-            rows="4"
-            placeholder="Message"
-            required
-          ></textarea>
-        </div>
-        <div
-          class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons"
-        >
-          <button
-            class="elementor-button elementor-size-sm"
-            type="submit"
-          >
-            <span class="elementor-button-content-wrapper">
-              <span class="elementor-button-text">Send Message</span>
-            </span>
-          </button>
-        </div>
-      </div>
-    </form>
-
+                          id="contact-form"
+                          class="elementor-form"
+                          method="post"
+                          name="contact"
+                          onsubmit="sendEmail(event)"
+                        >
+                          <input type="hidden" name="post_id" value="293" />
+                          <input type="hidden" name="form_id" value="cbc5f55" />
+                          <input type="hidden" name="referer_title" value="Contact" />
+                          <input type="hidden" name="queried_id" value="293" />
+                        
+                          <div class="elementor-form-fields-wrapper elementor-labels-above">
+                            <div
+                              class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50"
+                            >
+                              <label for="form-field-name" class="elementor-field-label">Name</label>
+                              <input
+                                size="1"
+                                type="text"
+                                name="name" 
+                                id="form-field-name"
+                                class="elementor-field elementor-size-sm elementor-field-textual"
+                                required
+                              />
+                            </div>
+                            <div
+                              class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required"
+                            >
+                              <label for="form-field-email" class="elementor-field-label">Email</label>
+                              <input
+                                size="1"
+                                type="email"
+                                name="email" 
+                                id="form-field-email"
+                                class="elementor-field elementor-size-sm elementor-field-textual"
+                                required="required"
+                                aria-required="true"
+                              />
+                            </div>
+                            <div
+                              class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_bfc318e elementor-col-100"
+                            >
+                              <label for="form-field-field_bfc318e" class="elementor-field-label"
+                                >Subject</label
+                              >
+                              <input
+                                size="1"
+                                type="text"
+                                name="subject" 
+                                id="form-field-field_bfc318e"
+                                class="elementor-field elementor-size-sm elementor-field-textual"
+                                required
+                              />
+                            </div>
+                            <div
+                              class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100"
+                            >
+                              <label for="form-field-message" class="elementor-field-label">Message</label>
+                              <textarea
+                                class="elementor-field-textual elementor-field elementor-size-sm"
+                                name="message" 
+                                id="form-field-message"
+                                rows="4"
+                                placeholder="Message"
+                                required
+                              ></textarea>
+                            </div>
+                            <div
+                              class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons"
+                            >
+                              <button class="elementor-button elementor-size-sm" type="submit">
+                                <span class="elementor-button-content-wrapper">
+                                  <span class="elementor-button-text">Send Message</span>
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
                         </div>
                       </div>
                     </div>
@@ -1689,7 +1687,7 @@
           </div>
         </div>
       </section>
-    
+
       <section
         class="elementor-section elementor-top-section elementor-element elementor-element-b00ac92 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
         data-id="b00ac92"
@@ -1814,12 +1812,13 @@
                         data-widget_type="theme-site-logo.default"
                       >
                         <div class="elementor-widget-container">
-                          <a
-                            href="../../index.htm"
-                          >
+                          <a href="../../index.htm">
                             <img
-                              width="107"
-                              height="23"
+                              style="
+                                object-fit: cover;
+                                width: 150px;
+                                height: 70px;
+                              "
                               src="../../wp-content/uploads/sites/16/2021/01/logo.png"
                               class="attachment-full size-full wp-image-48"
                               alt=""
@@ -2087,7 +2086,6 @@
                                   >Contact Us</a
                                 >
                               </li>
-                              
                             </ul>
                           </nav>
                           <nav
@@ -2483,24 +2481,18 @@
       src="../../wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.24.1"
       id="pro-elements-handlers-js"
     ></script>
-    <script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("lWvApDAsB_wuqmYKB"); // Replace with your EmailJS User ID
+      })();
+    
       function sendEmail(event) {
         event.preventDefault(); // Prevent default form submission
-
-        // Collect form data
-        const name = document.getElementById("form-field-name").value;
-        const email = document.getElementById("form-field-email").value;
-        const subject = document.getElementById("form-field-field_bfc318e").value;
-        const message = document.getElementById("form-field-message").value;
-
-        // Send email using EmailJS
+    
         emailjs
-          .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
-            name: name,
-            email: email,
-            subject: subject,
-            message: message,
-          })
+          .sendForm("service_oniyux9", "template_1iax3el", "#contact-form")
           .then(
             function (response) {
               console.log("SUCCESS!", response.status, response.text);
